@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(179, 201, 226);
+    viewport-fit: 100%;
+}
+
+.h1_posicao{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.h1_css{
+    background-color: rgb(179, 201, 226);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+.botao_voltar{
+    width: 100px;
+    height: 30px;
+}
+
+.botao_link{
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.p1_css{
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgb(179, 201, 226);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 60px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo_css{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    margin-left: 45%;
+
+    
+}
+
+@media (max-width: 400px){
+
+    .logo_css{
+        display: flex;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+        margin-left: 40%;
+        margin-top: 30%;
+    
+        
+    }
+    
+}
+
+@media (min-width:400px) and (max-width:1000px){
+
+    .logo_css{
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+        width: 150px;
+        height: 150px;
+        margin-top: 20%;
+        
+    }
+    
+}
